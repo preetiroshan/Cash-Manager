@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+#root {
+  --lightgrey: lightslategrey;
+  --light-bg: #d4e5e6;
+}
+body {
+  font-family: "PT Sans", sans-serif;
+  background: linear-gradient(#329ca1, #d4e5e6) no-repeat;
+  min-height: 100vh;
+}
+.App {
+  font-family: sans-serif;
+  text-align: left;
+  margin: 2rem;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+thead {
+  background-color: var(--lightgrey);
+}
+
+.table-container {
+  overflow-x: auto;
+  min-width: 100%;
+}
+.btn {
+  margin-top: 1rem;
+  padding: 0.3rem;
+  min-width: 70px;
+  border: none;
+  border-radius: 0.3rem;
+  background-color: var(--lightgrey);
+}
+input {
+  padding: 0.3rem;
+}
+
+.input-container {
+  background-color: var(--light-bg);
+  padding: 2rem;
+}
