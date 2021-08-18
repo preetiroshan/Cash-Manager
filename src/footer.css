@@ -1,0 +1,11 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.icons-container {
+  display: flex;
+  flex: row;
+  justify-content: center;
+}

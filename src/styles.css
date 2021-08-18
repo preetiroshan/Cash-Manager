@@ -19,7 +19,7 @@ th,
 td {
   border: 1px solid black;
   border-collapse: collapse;
-  margin-top: 2rem;
+  margin-top: 1rem;
   padding: 1rem;
 }
 thead {
@@ -44,5 +44,5 @@ input {
 
 .input-container {
   background-color: var(--light-bg);
-  padding: 2rem;
+  padding: 1rem;
 }

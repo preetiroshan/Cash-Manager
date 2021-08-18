@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Footer from "./Footer";
 import "./styles.css";
 
 export default function App() {
@@ -95,6 +96,7 @@ export default function App() {
           ) : null}
         </>
       )}
+      <Footer />
     </div>
   );
 }
